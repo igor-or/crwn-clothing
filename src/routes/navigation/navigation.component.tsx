@@ -1,4 +1,4 @@
-import { Fragment, useContext } from 'react';
+import { Fragment } from 'react';
 import { Outlet } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -15,7 +15,7 @@ import {
   LogoContainer,
   NavLinks,
   NavLink,
-} from './navigation.styles.jsx';
+} from './navigation.styles.js';
 
 const Navigation = () => {
   const dispatch = useDispatch();
