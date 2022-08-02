@@ -15,7 +15,7 @@ import {
   LogoContainer,
   NavLinks,
   NavLink,
-} from './navigation.styles.js';
+} from './navigation.styles';
 
 const Navigation = () => {
   const dispatch = useDispatch();
