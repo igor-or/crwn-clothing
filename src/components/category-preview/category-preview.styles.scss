@@ -13,5 +13,14 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+
+    @media screen and (max-width: 800px) {
+      display: flex;
+      overflow-x: auto;
+      align-items: center;
+      // &::-webkit-scrollbar {
+      //   display: none;
+      // }
+    }
   }
 }

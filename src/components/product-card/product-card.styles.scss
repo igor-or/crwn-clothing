@@ -48,4 +48,19 @@
       width: 10%;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    flex: 0 0 45%;
+    button {
+      opacity: unset;
+      display: block;
+      min-width: unset;
+      padding: 0 10px 0 10px;
+    }
+
+    img {
+      opacity: unset;
+      height: 90%;
+    }
+  }
 }
